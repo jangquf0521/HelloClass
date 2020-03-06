@@ -1,0 +1,35 @@
+$myColor : yellow;
+
+@mixin reset-list($c) {
+  margin : 0;
+  padding : 0;
+  list-style : none;
+  border : 1px solid $c;
+}
+
+%v {
+  margin : 1px;
+  padding : 1em;
+}
+
+.test{
+  @extend %v;
+  @include reset-list($myColor);
+  color : #ff0;
+  background-color : $myColor;
+  .list {
+    background-color  :blue;
+  }
+
+  .val {
+    color : #ee00ee;
+    div {
+      font-size : 1em;
+    }
+  }
+}
+
+.head {
+  @extend %v;
+  @include reset-list($myColor);
+}
