@@ -1,0 +1,27 @@
+{
+  "name": "helloclass",
+  "version": "1.0.0",
+  "description": "my first javascript project",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangquf0521/HelloClass.git"
+  },
+  "keywords": [
+    "hello",
+    "my",
+    "project"
+  ],
+  "author": "jangquf0521",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangquf0521/HelloClass/issues"
+  },
+  "homepage": "https://github.com/jangquf0521/HelloClass#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
